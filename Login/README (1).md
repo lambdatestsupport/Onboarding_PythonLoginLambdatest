@@ -1,4 +1,4 @@
-# Run Selenium Tests With Python On LambdaTest
+# Run Test with Python On LambdaTest
 
 ![171934563-4806efd2-1154-494c-a01d-1def95657383 (1)](https://user-images.githubusercontent.com/70570645/172273386-fa9606ac-3e63-4b2e-8978-3142add3e038.png)
 
@@ -44,14 +44,12 @@ Before you can start performing **Python** automation testing with **Selenium**,
 **Step 1:** Clone the LambdaTest’s python-selenium-sample repository and navigate to the code directory as shown below:
 
 ```bash
-git clone https://github.com/LambdaTest/python-selenium-sample
-cd python-selenium-sample
+git clone https://github.com/lambdatestsupport/Onboarding_PythonLoginLambdatest.git
+cd Login
 ```
 
 **Step 2:** Download the driver from the link, or you can use **pip** to install it.
 ```bash
-pip install selenium
-export PYTHONWARNINGS="ignore:Unverified HTTPS request"   //Disable ssl warning
 ```
 
 ### Setting Up Your Authentication
@@ -74,7 +72,7 @@ Make sure you have your LambdaTest credentials with you to run test automation s
 
 ## Run Your First Test
 
->**Test Scenario**: The [lambdatest.py](https://github.com/LambdaTest/python-selenium-sample/blob/master/lambdatest.py) sample script tests a simple to-do application with basic functionalities like mark items as done, add items in a list, calculate total pending items etc.
+>**Test Scenario**: The [Webdriverpython.py](https://github.com/LambdaTest/python-selenium-sample/blob/master/lambdatest.py) sample script tests a simple to-do application with basic functionalities like mark items as done, add items in a list, calculate total pending items etc.
 
 ### Configuration Of Your Test Capabilities
 
@@ -98,11 +96,11 @@ You can generate capabilities for your test requirements with the help of our in
 **Step 5:** You would need to execute the below command in your terminal/cmd.
 
 ```bash
-python lambdatest.py
+python webdriverpython.py
 ```
 For python3 use
 ```bash
-python3 lambdatest.py
+python3 webdriverpython.py
 ```
 
 Your test results would be displayed on the test console (or command-line interface if you are using terminal/cmd) and on LambdaTest automation dashboard. 
