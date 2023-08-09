@@ -48,10 +48,6 @@ git clone https://github.com/lambdatestsupport/Onboarding_PythonLoginLambdatest.
 cd Login
 ```
 
-**Step 2:** Download the driver from the link, or you can use **pip** to install it.
-```bash
-```
-
 ### Setting Up Your Authentication
 
 Make sure you have your LambdaTest credentials with you to run test automation scripts. You can get these credentials from the [LambdaTest Automation Dashboard](https://automation.lambdatest.com/build/?utm_source=github&utm_medium=repo&utm_campaign=python-selenium-sample) or by your [LambdaTest Profile](https://accounts.lambdatest.com/login/?utm_source=github&utm_medium=repo&utm_campaign=python-selenium-sample).
