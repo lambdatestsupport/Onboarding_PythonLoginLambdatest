@@ -4,11 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options as chromeOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
-username = "rakeshslambdatest"
-access_key = "MHu1nfiZVVPSteHsFVqybmvsxePoFJq0j8htKDk7uHcRwPgLGg"
+username = "enter username"
+access_key = "enter access key"
 grid_Url = "hub.lambdatest.com/wd/hub"
 options = webdriver.ChromeOptions()
-options.browser_version = "rakeshslambdatest"
+options.browser_version = ""
 options.platform_name = "Windows 11"
 lt_options = {}
 lt_options["username"] =""
@@ -18,8 +18,6 @@ lt_options["selenium_version"] = "4.0.0"
 lt_options["w3c"] = True
 options.set_capability('LT:Options', lt_options)
 # lt_options = {}
-# lt_options["username"] = "utkarshs"
-# lt_options["accessKey"] = "URepF67q3TohDB8lP8SrqlWGOPVyXbV2NBcx2nESEJj2S6hKC1"
 url = "https://"+username+":"+access_key+"@"+grid_Url
 driver = webdriver.Remote(
     command_executor=url,
@@ -28,11 +26,11 @@ driver = webdriver.Remote(
 driver.get("https://accounts.lambdatest.com/")
 # driver.get("https://accounts.lambdatest.com/")
 u_name = driver.find_element("id", "email")
-u_name.send_keys("rakeshs@lambdatest.com")
-# uname.send_keys("gauravp@lambdatest.com")
+u_name.send_keys("enter emaik address")
+
 # for  password
 p_word = driver.find_element("id", "password")
-p_word.send_keys("Rakesh@9015")
+p_word.send_keys("enter password")
 # for login
 login = driver.find_element("id", "login-button")
 login.send_keys(Keys.ENTER)
